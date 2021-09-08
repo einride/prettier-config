@@ -33,6 +33,26 @@ module.exports = {
 }
 ```
 
+Format all files according to the config:
+
+```bash
+# npm
+npx prettier --write .
+
+# yarn
+yarn prettier --write .
+```
+
+Format specified files according to the config:
+
+```bash
+# npm
+npx prettier --write src/example-file.js
+
+# yarn
+yarn prettier --write src/example-file.js
+```
+
 ## License
 
 MIT
