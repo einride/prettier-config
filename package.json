@@ -16,10 +16,6 @@
   "files": [
     "index.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/einride/prettier-config.git"
-  },
   "keywords": [
     "prettier",
     "config",
@@ -29,6 +25,10 @@
   ],
   "author": "Filip Tammergård <filip.tammergard@einride.tech>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einride/prettier-config.git"
+  },
   "bugs": {
     "url": "https://github.com/einride/prettier-config/issues"
   },
