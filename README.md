@@ -24,6 +24,15 @@ module.exports = {
 }
 ```
 
+Specific settings can be overridden by adding them after `@einride/prettier-config`:
+
+```js
+module.exports = {
+  ...require("@einride/prettier-config"),
+  semi: true,
+}
+```
+
 ## License
 
 MIT
