@@ -1,0 +1,36 @@
+{
+  "name": "@einride/prettier-config",
+  "version": "0.0.0-development",
+  "description": "Einride's default Prettier config",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einride/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "prettier-config",
+    "code-style",
+    "style-guide"
+  ],
+  "author": "Filip Tammergård <filip.tammergard@einride.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/einride/prettier-config/issues"
+  },
+  "homepage": "https://github.com/einride/prettier-config#readme"
+}
