@@ -3,7 +3,6 @@
   "version": "0.0.0-development",
   "description": "Einride's default Prettier config",
   "main": "index.js",
-  "scripts": {},
   "devDependencies": {
     "prettier": "2.4.1"
   },
