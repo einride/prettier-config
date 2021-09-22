@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "prettier": "2.4.1"
   },
   "peerDependencies": {
     "prettier": ">=2.0.0"
