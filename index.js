@@ -10,7 +10,7 @@ module.exports = {
   jsxSingleQuote: false,
   trailingComma: "all", // "es5"
   bracketSpacing: true,
-  jsxBracketSameLine: false,
+  bracketSameLine: false,
   arrowParens: "always",
   rangeStart: 0,
   rangeEnd: Infinity,
