@@ -18,6 +18,7 @@ module.exports = {
   insertPragma: false,
   proseWrap: "always", // "preserve"
   htmlWhitespaceSensitivity: "css",
+  vueIndentScriptAndStyle: false,
   endOfLine: "lf",
   embeddedLanguageFormatting: "auto",
   overrides: [
