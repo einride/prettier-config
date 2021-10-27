@@ -1,4 +1,4 @@
-name: Review & release
+name: CI
 
 on:
   push:
@@ -9,18 +9,8 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
-
       - name: Review
-        run: npm run review
+        uses: ./.github/workflows/review
 
   release:
     runs-on: ubuntu-latest
