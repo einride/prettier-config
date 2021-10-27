@@ -2,9 +2,18 @@
   "name": "@einride/prettier-config",
   "version": "0.0.0-development",
   "description": "Einride's default Prettier config",
-  "main": "index.js",
+  "scripts": {
+    "commitlint": "commitlint --from origin/main --to HEAD",
+    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
+    "review": "npm ci && npm run commitlint && npm run git-verify-nodiff",
+    "semantic-release": "semantic-release"
+  },
   "devDependencies": {
-    "prettier": "2.4.1"
+    "@commitlint/config-conventional": "13.2.0",
+    "commitlint": "13.2.1",
+    "conventional-changelog-conventionalcommits": "4.6.1",
+    "prettier": "2.4.1",
+    "semantic-release": "18.0.0"
   },
   "peerDependencies": {
     "prettier": "^2.4.0"
@@ -12,6 +21,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "index.js",
   "files": [
     "index.js"
   ],

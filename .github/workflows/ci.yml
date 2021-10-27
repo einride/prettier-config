@@ -6,19 +6,19 @@ on:
       - main
 
 jobs:
-  make:
+  review:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
       - name: Setup Node
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2
         with:
           node-version: 16
 
-      - name: Make
-        run: make
+      - name: Review
+        run: npm run review
 
   release:
     runs-on: ubuntu-latest
@@ -27,12 +27,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2
         with:
           node-version: 16
 
       - name: Run semantic-release
-        run: make semantic-release
+        run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
