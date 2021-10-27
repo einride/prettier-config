@@ -1,4 +1,4 @@
-name: CI
+name: Review & release
 
 on:
   push:
@@ -11,9 +11,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
 
       - name: Review
-        uses: ./.github/workflows/review.yml
+        run: npm run review
 
   release:
     needs: review
