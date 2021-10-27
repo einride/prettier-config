@@ -5,7 +5,8 @@
   "scripts": {
     "commitlint": "commitlint --from origin/main --to HEAD",
     "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
-    "review": "npm ci && npm run commitlint && npm run git-verify-nodiff",
+    "prettier": "prettier --write .",
+    "review": "npm ci && npm run commitlint && npm run prettier && npm run git-verify-nodiff",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
