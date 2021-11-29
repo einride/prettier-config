@@ -6,7 +6,7 @@
     "commitlint": "commitlint --from origin/main --to HEAD",
     "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
     "prettier": "prettier --write .",
-    "review": "npm ci && npm run commitlint && npm run prettier && npm run git-verify-nodiff"
+    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn prettier && yarn git-verify-nodiff"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "13.2.0",
