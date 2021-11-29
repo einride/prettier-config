@@ -20,4 +20,4 @@ jobs:
           node-version: 16
 
       - name: Review
-        run: npm run review
+        run: yarn review
