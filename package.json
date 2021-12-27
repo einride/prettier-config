@@ -9,7 +9,7 @@
     "review": "yarn install --frozen-lockfile && yarn commitlint && yarn prettier && yarn git-verify-nodiff"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "15.0.0",
+    "@commitlint/config-conventional": "16.0.0",
     "commitlint": "15.0.0",
     "prettier": "2.5.1",
     "semantic-release": "18.0.1"
