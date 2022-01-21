@@ -11,7 +11,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "16.0.0",
     "@types/node": "16.11.21",
-    "commitlint": "16.0.3",
+    "commitlint": "16.1.0",
     "prettier": "2.5.1",
     "semantic-release": "19.0.2"
   },
