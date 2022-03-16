@@ -21,6 +21,7 @@ module.exports = {
   vueIndentScriptAndStyle: false,
   endOfLine: "lf",
   embeddedLanguageFormatting: "auto",
+  singleAttributePerLine: false,
   overrides: [
     // allow longer line lengths in JSON files
     {
