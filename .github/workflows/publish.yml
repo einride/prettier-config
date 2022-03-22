@@ -72,9 +72,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build
-        run: yarn build
-
       - name: Setup registry
         run: echo @einride:registry=https://npm.pkg.github.com >> .npmrc
 
