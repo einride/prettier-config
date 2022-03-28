@@ -1,5 +1,12 @@
 module.exports = {
-  branches: ["main"],
+  branches: [
+    "+([0-9])?(.{+([0-9]),x}).x",
+    "main",
+    "next",
+    "next-major",
+    { name: "beta", prerelease: true },
+    { name: "alpha", prerelease: true },
+  ],
   plugins: [
     [
       "@semantic-release/commit-analyzer",
@@ -15,7 +22,6 @@ module.exports = {
         preset: "conventionalcommits",
       },
     ],
-    "@semantic-release/git",
   ],
   // disable updates to github PRs and issues due to successful releases
   success: false,
