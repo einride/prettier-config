@@ -1,6 +1,6 @@
 {
   "name": "@einride/prettier-config",
-  "version": "1.2.0",
+  "version": "0.0.0-development",
   "description": "Einride's default Prettier config",
   "scripts": {
     "commitlint": "commitlint --from origin/main --to HEAD",
