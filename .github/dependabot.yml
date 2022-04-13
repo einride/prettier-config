@@ -5,10 +5,10 @@ updates:
     directory: /
     schedule:
       interval: daily
-    ignore:
-      - dependency-name: "@types/node"
-        update-types: ["version-update:semver-major"]
+      time: "05:00"
+
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: daily
+      time: "05:00"
