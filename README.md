@@ -31,37 +31,39 @@ module.exports = {
 Specific settings can be overridden by adding them after
 `@einride/prettier-config`:
 
-```diff
+```js
 module.exports = {
   ...require("@einride/prettier-config"),
-+ semi: true,
+  semi: true,
 }
 ```
 
-Format all files according to the config:
+Add this script to the `scripts` section of your `package.json`: Format all
+files according to the config:
 
-```bash
-# npm
-npx prettier --write .
-
-# yarn
-yarn prettier --write .
+```json
+{
+  "scripts": {
+    "prettier": "prettier --write ."
+  }
+}
 ```
 
-Format specified files according to the config:
+Running `npm run prettier` or `yarn prettier` will format all your files
+according to the specified config.
 
-```bash
-# npm
-npx prettier --write src/example-file.js
+Add a `.prettierignore` file to ignore files from being formatted:
 
-# yarn
-yarn prettier --write src/example-file.js
 ```
+src/gen
+```
+
+`node_modules` are ignored by default.
 
 ## Contribute
 
 See
-[Contributing Guide](https://github.com/einride/hooks/blob/main/CONTRIBUTING.md).
+[Contributing Guide](https://github.com/einride/prettier-config/blob/main/CONTRIBUTING.md).
 
 ## License
 
