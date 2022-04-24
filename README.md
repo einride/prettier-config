@@ -22,7 +22,7 @@ Make sure Prettier is installed in your project as well.
 
 ## Usage
 
-Add the config to your `.prettierrc.js` file:
+Add `@einride/prettier-config` to your `.prettierrc.js` file:
 
 ```js
 module.exports = {
@@ -40,8 +40,7 @@ module.exports = {
 }
 ```
 
-Add this script to the `scripts` section of your `package.json`: Format all
-files according to the config:
+Add a `prettier` script to the `scripts` section of your `package.json`:
 
 ```json
 {
@@ -52,15 +51,15 @@ files according to the config:
 ```
 
 Running `npm run prettier` or `yarn prettier` will format all your files
-according to the specified config.
+according to the config specified in `.prettierrc.js`.
 
 Add a `.prettierignore` file to ignore files from being formatted:
 
-```
-src/gen
+```ignore
+src/gen # ignores
 ```
 
-`node_modules` are ignored by default.
+`node_modules` is ignored by default.
 
 ## Contribute
 
