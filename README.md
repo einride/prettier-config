@@ -58,6 +58,11 @@ npx prettier --write src/example-file.js
 yarn prettier --write src/example-file.js
 ```
 
+## Contribute
+
+See
+[Contributing Guide](https://github.com/einride/hooks/blob/main/CONTRIBUTING.md).
+
 ## License
 
 MIT
