@@ -8,15 +8,17 @@ Einride's default Prettier config.
 
 ## Installation
 
-Install this Prettier config together with its peer dependencies:
+Install `@einride/prettier-config` with NPM or Yarn:
 
 ```bash
 # npm
-npm install @einride/prettier-config prettier --save-dev
+npm install @einride/prettier-config --save-dev
 
 # yarn
-yarn add @einride/prettier-config prettier --dev
+yarn add @einride/prettier-config --dev
 ```
+
+Make sure Prettier is installed in your project as well.
 
 ## Usage
 
