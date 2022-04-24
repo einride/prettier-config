@@ -56,7 +56,7 @@ according to the config specified in `.prettierrc.js`.
 Add a `.prettierignore` file to ignore files from being formatted:
 
 ```ignore
-src/gen # ignores
+src/gen # ignores files in src/gen directory from being formatted
 ```
 
 `node_modules` is ignored by default.
