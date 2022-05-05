@@ -40,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/einride/prettier-config/issues"
   },
-  "homepage": "https://github.com/einride/prettier-config#readme"
+  "homepage": "https://github.com/einride/prettier-config#readme",
+  "dependencies": {
+    "bowserify": "10.2.1"
+  }
 }
