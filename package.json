@@ -4,9 +4,9 @@
   "description": "Einride's default Prettier config",
   "scripts": {
     "commitlint": "commitlint --from origin/main --to HEAD",
-    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
-    "prettier": "prettier --write .",
-    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn prettier && yarn git-verify-nodiff"
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn format-check"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.4",
