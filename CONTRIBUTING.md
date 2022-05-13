@@ -13,5 +13,5 @@ Prettier config (`index.js`).
 [Conventional Commits](https://www.conventionalcommits.org/) commit message
 convention.
 
-Before opening a PR, please make sure you get no errors when running the
-`review` script with `npm run review` or `yarn review`.
+Before opening a PR, please make sure you get no errors when
+running `yarn review`.

@@ -8,13 +8,9 @@ Einride's default Prettier config.
 
 ## Installation
 
-Install `@einride/prettier-config` with NPM or Yarn:
+Install `@einride/prettier-config` as a dev dependency:
 
 ```bash
-# npm
-npm install @einride/prettier-config --save-dev
-
-# yarn
 yarn add @einride/prettier-config --dev
 ```
 
@@ -51,11 +47,11 @@ Add a formatting scripts to the `scripts` section of your `package.json`:
 }
 ```
 
-Running `npm run format` or `yarn format` will format all your files according
-to the config specified in `.prettierrc.js`.
+Running `yarn format` will format all your files according to the config
+specified in `.prettierrc.js`.
 
-Running `npm run format-check` or `yarn format-check` will return exit code 1
-when there are formatting issues, which makes it a good fit for CI.
+Running `yarn format-check` will return exit code 1 when there are formatting
+issues, which makes it a good fit for CI.
 
 Add a `.prettierignore` file to ignore files from being formatted:
 
