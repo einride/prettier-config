@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@einride/prettier-config.svg)](https://www.npmjs.com/package/@einride/prettier-config)
 [![total npm downloads](https://img.shields.io/npm/dt/@einride/prettier-config.svg)](https://www.npmjs.com/package/@einride/prettier-config)
 
-Einride's default Prettier config.
+Einride's default Prettier config
 
 ## Installation
 
