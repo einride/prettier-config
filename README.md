@@ -40,18 +40,22 @@ module.exports = {
 }
 ```
 
-Add a `prettier` script to the `scripts` section of your `package.json`:
+Add a formatting scripts to the `scripts` section of your `package.json`:
 
 ```json
 {
   "scripts": {
-    "prettier": "prettier --write ."
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
   }
 }
 ```
 
-Running `npm run prettier` or `yarn prettier` will format all your files
-according to the config specified in `.prettierrc.js`.
+Running `npm run format` or `yarn format` will format all your files according
+to the config specified in `.prettierrc.js`.
+
+Running `npm run format-check` or `yarn format-check` will return exit code 1
+when there are formatting issues, which makes it a good fit for CI.
 
 Add a `.prettierignore` file to ignore files from being formatted:
 
