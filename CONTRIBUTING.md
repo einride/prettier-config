@@ -5,7 +5,7 @@ Thanks for showing interest in contributing to `@einride/prettier-config`!
 ## Suggesting Changes
 
 A decision in Einride's frontend guild has to precede any changes to the default
-Prettier config.
+Prettier config (`index.js`).
 
 ## Pull Request Guidelines
 
