@@ -14,7 +14,7 @@ Install `@einride/prettier-config` as a dev dependency:
 yarn add @einride/prettier-config --dev
 ```
 
-Make sure Prettier is installed in your project as well.
+Make sure Prettier is also installed in your project.
 
 ## Usage
 
