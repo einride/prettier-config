@@ -1,7 +1,7 @@
 // defaults in comments
 
 module.exports = {
-  printWidth: 80,
+  printWidth: 100, // 80
   tabWidth: 2,
   useTabs: false,
   semi: false, // true
