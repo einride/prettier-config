@@ -7,7 +7,7 @@
     "commitlint": "commitlint --from origin/main --to HEAD",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn format-check"
+    "review": "yarn install --immutable && yarn commitlint && yarn format-check"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.1",
@@ -40,5 +40,6 @@
   "bugs": {
     "url": "https://github.com/einride/prettier-config/issues"
   },
-  "homepage": "https://github.com/einride/prettier-config#readme"
+  "homepage": "https://github.com/einride/prettier-config#readme",
+  "packageManager": "yarn@3.2.1"
 }
