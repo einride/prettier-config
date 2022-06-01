@@ -26,8 +26,7 @@ module.exports = {
 }
 ```
 
-Specific settings can be overridden by adding them after
-`@einride/prettier-config`:
+Specific settings can be overridden by adding them after `@einride/prettier-config`:
 
 ```js
 module.exports = {
@@ -47,11 +46,11 @@ Add a formatting scripts to the `scripts` section of your `package.json`:
 }
 ```
 
-Running `yarn format` will format all your files according to the config
-specified in `.prettierrc.js`.
+Running `yarn format` will format all your files according to the config specified in
+`.prettierrc.js`.
 
-Running `yarn format-check` will return exit code 1 when there are formatting
-issues, which makes it a good fit for CI.
+Running `yarn format-check` will return exit code 1 when there are formatting issues, which makes it
+a good fit for CI.
 
 Add a `.prettierignore` file to ignore files from being formatted:
 
@@ -63,8 +62,7 @@ src/gen # ignores files in src/gen directory from being formatted
 
 ## Contribute
 
-See
-[Contributing Guide](https://github.com/einride/prettier-config/blob/main/CONTRIBUTING.md).
+See [Contributing Guide](https://github.com/einride/prettier-config/blob/main/CONTRIBUTING.md).
 
 ## License
 
