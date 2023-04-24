@@ -1,4 +1,4 @@
-name: Semantic Release
+name: Release
 
 on:
   push:
@@ -10,7 +10,8 @@ on:
       - next-major
 
 jobs:
-  semantic-release:
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,7 +27,7 @@ jobs:
       - name: Review
         run: yarn review
 
-      - name: Run semantic-release
+      - name: Release
         run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -41,7 +41,6 @@
     "url": "https://github.com/einride/prettier-config.git"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   }
 }
