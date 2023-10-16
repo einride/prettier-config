@@ -5,6 +5,10 @@ updates:
     directory: /
     schedule:
       interval: daily
+    groups:
+      commitlint:
+        patterns:
+          - "@commitlint/*"
 
   - package-ecosystem: github-actions
     directory: /
