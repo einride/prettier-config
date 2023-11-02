@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: prettier-config
-  description: Einride's default Prettier config
+  description: Einride's default Prettier config.
   annotations:
     github.com/project-slug: einride/prettier-config
-    github.com/team-slug: einride/team-design-system
+    github.com/team-slug: einride/team-divops
 spec:
   type: library
   lifecycle: production
