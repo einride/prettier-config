@@ -18,19 +18,23 @@ Make sure Prettier is also installed in your project.
 
 ## Usage
 
-Add `@einride/prettier-config` to your `.prettierrc.js` file:
+Add `@einride/prettier-config` to your `.prettierrc.mjs` file:
 
 ```js
-module.exports = {
-  ...require("@einride/prettier-config"),
+import einridePrettierConfig from "@einride/prettier-config"
+
+export default {
+  ...einridePrettierConfig,
 }
 ```
 
 Specific settings can be overridden by adding them after `@einride/prettier-config`:
 
 ```js
-module.exports = {
-  ...require("@einride/prettier-config"),
+import einridePrettierConfig from "@einride/prettier-config"
+
+export default {
+  ...einridePrettierConfig,
   semi: true,
 }
 ```
@@ -47,7 +51,7 @@ Add a formatting scripts to the `scripts` section of your `package.json`:
 ```
 
 Running `yarn format` will format all your files according to the config specified in
-`.prettierrc.js`.
+`.prettierrc.mjs`.
 
 Running `yarn format-check` will return exit code 1 when there are formatting issues, which makes it
 a good fit for CI.
