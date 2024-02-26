@@ -7,8 +7,8 @@ metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/einride/prettier-config/tree/main
     github.com/project-slug: einride/prettier-config
-    github.com/team-slug: einride/team-divops
+    github.com/team-slug: einride/platform-engineering
 spec:
   type: library
-  owner: team-divops
+  owner: platform-engineering
   lifecycle: production
