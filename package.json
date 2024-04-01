@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "description": "Einride's default Prettier config",
   "scripts": {
-    "commitlint": "commitlint --from origin/main --to HEAD",
+    "commitlint": "commitlint --from origin/master --to HEAD",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
     "review": "yarn install --frozen-lockfile && yarn commitlint && yarn format-check"
