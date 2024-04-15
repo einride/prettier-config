@@ -12,3 +12,4 @@ spec:
   type: library
   owner: platform-engineering
   lifecycle: production
+  system: frontend-sdk
