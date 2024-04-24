@@ -9,7 +9,7 @@
     "review": "yarn install --frozen-lockfile && yarn commitlint && yarn format-check"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.2.2",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "^19.0.0",
     "prettier": "3.2.5",
     "semantic-release": "23.0.8"
