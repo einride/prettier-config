@@ -11,8 +11,8 @@
   "devDependencies": {
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "^21.2.0",
-    "prettier": "3.8.1",
-    "semantic-release": "25.0.3"
+    "prettier": "3.9.6",
+    "semantic-release": "25.0.9"
   },
   "peerDependencies": {
     "prettier": ">=2.4.0"
