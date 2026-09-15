@@ -5,11 +5,11 @@ metadata:
   title: Prettier Config
   description: Einride's default Prettier config.
   annotations:
-    backstage.io/source-location: url:https://github.com/einride/prettier-config/tree/main
+    backstage.io/source-location: url:https://github.com/einride/prettier-config/tree/master/
     github.com/project-slug: einride/prettier-config
-    github.com/team-slug: einride/platform-engineering
+    github.com/team-slug: einride/asset-intelligence
 spec:
   type: library
-  owner: platform-engineering
+  owner: asset-intelligence
   lifecycle: production
   system: frontend-sdk
